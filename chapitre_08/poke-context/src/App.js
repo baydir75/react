@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
 import Home from './components/Home'
 import Login from './components/Login'
 import { UserContext, isLogged } from './context/userContext'
+import { PokemonList } from './context/pokemonContext'
 import React, { useState, useEffect } from 'react'
 
 
